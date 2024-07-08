@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "dia01-ej-modelo-controlador",
+  "version": "1.0.0",
+  "description": "Basic API to demonstrate the use of models and controllers",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "author": "Gabriel Ferrin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.10.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}
